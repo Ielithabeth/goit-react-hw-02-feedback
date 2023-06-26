@@ -2,22 +2,16 @@ body {
   margin: 0;
   font-family: 'Montserrat';
 
-  background-color: rgb(227, 227, 227);
+  background-color: #161616;
+  color: #ffffff;
 }
 
 #root {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 90px;
+  align-items: flex-start;
 
-  margin: 20px;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
+  margin: 20px 90px;
 }
 
 p {
